@@ -46,7 +46,7 @@ elif(age>=60):
 
 
 
-25/10/25
+5/10/25
 "Day1- complete - python enviorment ready"
 I'll surely do it!!!
 
@@ -57,3 +57,6 @@ im on it
 27/10/25
 "day3- data structures and conditional logic"
 idk it seems that its easy but its tough.
+Day 3: Learned Python dictionaries, fixed syntax errors, understood dict.items(), 
+restored VS Code erminal, configured Git, 
+resolved non-fast-forward error, and successfully pushed to GitHub.
