@@ -1,10 +1,10 @@
-#this section is about list and tuples 
+#section1: lists and tuples, this section is about list and tuples 
 num = []#empty list created
-num1= input("enter 1st num")
-num2= input("enter 2nd num")
-num3= input("enter 3rd num")
-num4= input("enter 4th num")
-num5= input("enter 5th num")#5 user input taken
+num1= int(input("enter 1st num"))
+num2= int(input("enter 2nd num"))
+num3= int(input("enter 3rd num"))
+num4= int(input("enter 4th num"))
+num5= int(input("enter 5th num"))#5 user input taken
 num.append(num1)
 num.append(num2)
 num.append(num3)
@@ -24,27 +24,36 @@ print(num)#sorts the list in ascending order(not told by you what order so i cho
 tup = tuple(num)
 print(type(tup))#changes list into tuple
 
-#tjis section is about dictionary
-dict= {
+#section 2: dictionary ,this section is about dictionary
+user_info= {
    "name": str(input("enter your name")),
    "age": int(input("enter your age")),
    "city": str(input("enter your city")),
 }
-print(dict)#dictonory created and input taken from user
 
-#this section is about if else logic
+for key, value in user_info.items():
+    print(f"{key}:{value}")#dictonory created and input taken from user
+
+#section 3: if-else logic, this section is about if else logic
 age= int(input("enter your age: "))#user input for age
 
 if(age<=18):
-    print("minor")#command to check
+    (print("minor"))#command to check
 elif(age>= 18 and age<=59):
-    print("adult")#command to check if 1st command isnt true
+    (print("adult"))#command to check if 1st command isnt true
 elif(age>=60):
-    print("senior citizen")#ommand to check if 2nd command isnt true
+    (print("senior citizen"))#ommand to check if 2nd command isnt true
+
+
+
 25/10/25
 "Day1- complete - python enviorment ready"
 I'll surely do it!!!
 
 26/10/25
 "day2- complete - "learned about interactive shell(REPL) anad how it differs from running scripts directly 
-im on it!!!!
+im on it 
+
+27/10/25
+"day3- data structures and conditional logic"
+idk it seems that its easy but its tough.
