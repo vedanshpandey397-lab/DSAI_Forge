@@ -25,20 +25,21 @@ tup = tuple(num)
 print(type(tup))#changes list into tuple
 
 #section 2: dictionary ,this section is about dictionary
-dict= {
+user_info= {
    "name": str(input("enter your name")),
    "age": int(input("enter your age")),
    "city": str(input("enter your city")),
 }
-for key in dict():
-print(f"{key}:{value}")#dictonory created and input taken from user
+
+for key, value in user_info.items():
+    print(f"{key}:{value}")#dictonory created and input taken from user
 
 #section 3: if-else logic, this section is about if else logic
 age= int(input("enter your age: "))#user input for age
 
 if(age<=18):
-    print("minor")#command to check
+    (print("minor"))#command to check
 elif(age>= 18 and age<=59):
-    print("adult")#command to check if 1st command isnt true
+    (print("adult"))#command to check if 1st command isnt true
 elif(age>=60):
-    print("senior citizen")#ommand to check if 2nd command isnt true
+    (print("senior citizen"))#ommand to check if 2nd command isnt true
