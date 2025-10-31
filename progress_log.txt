@@ -12,3 +12,11 @@ idk it seems that its easy but its tough.
 Day 3: Learned Python dictionaries, fixed syntax errors, understood dict.items(), 
 restored VS Code erminal, configured Git, 
 resolved non-fast-forward error, and successfully pushed to GitHub.
+
+29/10/25
+"day4- conditional flow and logic"
+I missed a day but today was easy! i mill make up
+
+31/10/25
+'day5_loops'
+I swear the git annnoys me more than the coding itself
