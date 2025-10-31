@@ -1,17 +1,18 @@
-nums =[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# day5_loops.py
 
-for val in nums:
-    print("number:", val, "square:", val*val)
+# For loop example: print numbers 1–10 and their squares
+for val in range(1, 11):
+    print("Number:", val, "| Square:", val ** 2)
 
+# While loop example: multiplication table
 i = 1
-num= int(input("enter a number"))
+num = int(input("\nEnter a number: "))
+while i <= 10:
+    print(num, "x", i, "=", num * i)
+    i += 1
 
-while i<=10:
-    print(num, "X", i, "=", i*num)
-    i+=1
-
-
-k=1 
-while k<=10:
-    print("i will not skip my daily forge again")
-    k+=1
+# Punishment loop 😅
+k = 1
+while k <= 10:
+    print("I will not skip my daily forge again!")
+    k += 1
